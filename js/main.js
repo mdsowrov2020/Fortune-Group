@@ -2072,3 +2072,138 @@
 //end of IIFE function
 })(jQuery);
 
+
+$('.group_slider').slick({
+    dots: false,
+    infinite: true,
+    speed: 2000,
+    autoplay:true,
+    autoplaySpeed: 3000,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    prevArrow:
+    '<span class="prev_arrow"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>',
+  nextArrow:
+    '<span class="next_arrow"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>',
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
+
+//   Partner Slider
+$('.partner_slider_container').slick({
+    dots: false,
+    infinite: true,
+    speed: 2000,
+    autoplay:true,
+    autoplaySpeed: 3000,
+    slidesToShow: 7,
+    slidesToScroll: 7,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
+
+
+//   Team Slider
+$('.team_slider').slick({
+    dots: false,
+    infinite: true,
+    speed: 2000,
+    autoplay:true,
+    autoplaySpeed: 3000,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    prevArrow:
+    '<span class="prev_arrow"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>',
+  nextArrow:
+    '<span class="next_arrow"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>',
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+  });
+  var vid = document.getElementById("video");
+  function playVideo() {
+    document.getElementById("video_popup").classList.toggle("video_active");
+    document.getElementById("video_bg").classList.toggle("video_visible");
+    vid.pause();
+  }
+
+
+
+
