@@ -1,0 +1,9 @@
+.top_header {
+  /* padding: 5px 0; */
+  padding-top: 6px;
+  /* background-color: #329e60; */
+  background-color: #000;
+  z-index: 1500;
+  position: relative;
+  color: #fff;
+}
