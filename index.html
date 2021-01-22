@@ -41,7 +41,7 @@
 
 </head>
 
-<body>
+<body oncopy="return false" oncut="return false">
 	<!--[if lt IE 9]>
 		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="color-main">upgrade your browser</a> to improve your experience.</div>
 	<![endif]-->
@@ -315,15 +315,47 @@
 											</ul> -->
 										</li>
 
-										<li>
-											<a href="about.html">About</a>
+										<li class="nav-item about_dropdown">
+											<a class="nav-link" href="about.html">About Us <span><i class="fas fa-chevron-down"></i></span></a>
+											<div class="about_mega_drop">
+											  <ul>
+												<li><a href="">Company Overview</a>
+												<!-- <div class="about_sub_drop">
+												  <ul>
+													<li><a href=""></a></li>
+													<li><a href=""></a></li>
+												  </ul>
+												</div> -->
+												<span class="drop_rigth_icon"><i class="fas fa-chevron-right"></i></span>
+												</li>
+												<li><a href="">Leadership</a>
+												  <div class="about_sub_drop">
+													<ul>
+													  <li><a href="">Chairman's Profile</a></li>
+													  <li><a href="">Managing Director's Profile</a></li>
+													</ul>
+												  </div>
+												  <span class="drop_rigth_icon"><i class="fas fa-chevron-right"></i></span>
+												</li>
+												<li><a href="">Our Team</a>
+												  <!-- <div class="about_sub_drop">
+													<ul>
+													  <li><a href=""></a></li>
+													  <li><a href=""></a></li>
+													</ul>
+												  </div> -->
+												  <span class="drop_rigth_icon"><i class="fas fa-chevron-right"></i></span>
+												</li>
+											</ul>
+											</div>
+						  
 										</li>
 										
 										<!-- eof pages -->
 
 
-										<li>
-											<a href="#">industries </a><!--Old Features-->
+										<li class="about_dropdown">
+											<a href="#">Companies <span><i class="fas fa-chevron-down"></i></span></a><!--Old Features-->
 											<div class="mega-menu">
 												<div class="row justify-content-center">
 													<div class="col-md-3 mega_links">

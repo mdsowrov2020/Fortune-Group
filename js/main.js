@@ -2436,3 +2436,87 @@ function playVideo() {
   document.getElementById('video_bg').classList.toggle('video_visible');
   vid.pause();
 }
+
+// $(document).bind('contextmenu', function (e) {
+//   return false;
+// });
+
+$('.image_gallery').magnificPopup({
+  type: 'image',
+  delegate: 'a',
+  gallery: { enabled: true },
+});
+
+// ====================== company image gallery slider for mobile view
+$('.mobile_slider').slick({
+  dots: true,
+  arrows: false,
+  infinite: true,
+  autoplay: true,
+  speed: 500,
+  autoplaySpeed: 1000,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  mobileFirst: true,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: 'unslick',
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ],
+});
+
+// ===============================================
+$('.company_mobile_slider').slick({
+  dots: true,
+  arrows: false,
+  infinite: true,
+  autoplay: true,
+  speed: 500,
+  autoplaySpeed: 1000,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  mobileFirst: true,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: 'unslick',
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ],
+});
