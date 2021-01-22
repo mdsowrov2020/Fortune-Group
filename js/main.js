@@ -2447,6 +2447,12 @@ $('.image_gallery').magnificPopup({
   gallery: { enabled: true },
 });
 
+$('.bank_gallery').magnificPopup({
+  type: 'image',
+  delegate: 'a',
+  gallery: { enabled: true },
+});
+
 // ====================== company image gallery slider for mobile view
 $('.mobile_slider').slick({
   dots: true,
