@@ -32140,3 +32140,10 @@ img.absolute_image {
 .custom_nav {
   background-color: rgba(7, 52, 69, 0.88) !important;
 }
+
+.btn.big-btn {
+  border-radius: 5em;
+  font-weight: 500;
+  min-width: 200px;
+  padding: 18px 30px;
+}

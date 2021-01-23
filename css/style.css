@@ -458,6 +458,9 @@
   background: transparent !important;
 }
 
+.infor_form {
+  background-color: #329e60 !important;
+}
 /* ===mobile responsive part start ========== */
 @media (max-width: 576px) {
   .top_header {
