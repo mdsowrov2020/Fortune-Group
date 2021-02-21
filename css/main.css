@@ -11003,7 +11003,7 @@ img {
 .cover-image,
 .cover-background,
 .texture-background {
-  background-position: 50% 50%;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -11012,8 +11012,14 @@ img {
 .cover-image {
   height: 100vh;
   width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
+.cover-image img {
+  height: 100%;
+  width: 100%;
+}
 @media (min-width: 992px) {
   .s-overlay.mobile-overlay:before {
     display: none;

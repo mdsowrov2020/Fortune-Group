@@ -26,6 +26,9 @@
   transition: all 0.5s linear;
   z-index: 99;
 }
+.about_dropdown:hover .about_mega_drop {
+  display: block;
+}
 .product_left_sidebar {
   display: block;
   position: unset;
@@ -123,9 +126,7 @@
 .product_left_sidebar ul li .drop_rigth_icon {
   top: 50%;
 }
-.about_dropdown:hover .about_mega_drop {
-  display: block;
-}
+
 .category_card {
   border-radius: 3px;
   text-align: center;
@@ -483,13 +484,13 @@
     position: unset;
   }
 
-  .about_mega_drop {
+  /* .about_mega_drop {
     display: block;
     position: unset;
   }
   .about_mega_drop ul li {
     list-style-type: unset;
-  }
+  } */
   .about_mega_drop ul li {
     position: unset;
   }
@@ -506,4 +507,16 @@
   .mobile_view_set {
     display: none;
   }
+}
+
+.cover-image {
+  height: 100vh !important;
+  width: 100%;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+.cover-image img {
+  height: 100%;
+  width: 100%;
 }
