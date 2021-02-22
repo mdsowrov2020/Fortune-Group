@@ -268,3 +268,33 @@
 .phone_info h4 {
   margin-left: 20px;
 } */
+
+.latest_heading_des h2 {
+  font-size: 30px !important;
+}
+
+.latest_news_date_des h4 {
+  color: #484848;
+}
+
+.latest_news_img_des {
+  height: 480px;
+  width: 60%;
+}
+
+.latest_news_img_des img {
+  height: 100%;
+  width: 100%;
+}
+
+.latest_description {
+  padding: 10px 0;
+}
+
+.latest_description p {
+  font-size: 16px;
+  color: #484848;
+  line-height: 30px;
+  text-align: justify;
+  padding-bottom: 20px;
+}
