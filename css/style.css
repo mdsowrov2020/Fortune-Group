@@ -82,6 +82,7 @@
   margin-top: 0px !important;
   transition: all 0.5s linear;
 }
+
 .about_mega_drop ul li .about_sub_drop ul li a {
   width: 100%;
   text-align: left;
@@ -519,4 +520,8 @@
 .cover-image img {
   height: 100%;
   width: 100%;
+}
+
+.list-unstyled li a:hover {
+  color: #fff !important;
 }
