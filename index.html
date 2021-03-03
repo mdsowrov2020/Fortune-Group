@@ -26,6 +26,7 @@
 	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/slick-theme.css">
 	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="css/magnific/magnific-popup.css">
 	<link rel="stylesheet" href="css/shop.css" class="color-switcher-link">
 	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/slick-theme.css">
@@ -908,19 +909,20 @@ Periodically Md. Arifur Rahman transformed Fortune International into Fortune's 
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-12 col-12 col-lg-6">
-								<div class="video_bg " id="video_bg">
+								<div class="ss_all_video " id="video_bg">
 									<img src="images/services/service3.jpg" alt="01">
-									<h5 class="side-video" onclick="playVideo()" style="cursor: pointer;"></h5>
+									<!-- <h5 class="side-video" onclick="playVideo()" style="cursor: pointer;"></h5> -->
 									<!-- <a href="images/services/service3.jpg" class="photoswipe-link side-video"></a> -->
+									<!-- <a class="ss_video_popup" rel="external" href="https://www.youtube.com/embed/hNQFjqDvPhA"> -->
 
-									<div class="tarc_video" id="tarc_video" onclick="playVideo()"></div>
+									<!-- <div class="tarc_video" id="tarc_video" onclick="playVideo()"></div>
 									<div class="main_video">
 									<h2 onclick="playVideo()">x</h2>
 									<video  controls autoplay loop  class="video_body" id="video">
 										<source src="./video/Sea - 24216.mp4" type="video/mp4">
 									</video>
 									
-									</div>
+									</div> -->
 								</div>
 						</div>
 						<div class="col-xs-12 col-12 col-lg-6 pt-5">
@@ -940,12 +942,22 @@ Periodically Md. Arifur Rahman transformed Fortune International into Fortune's 
 								<div class="divider-30 hidden-above-lg"></div>
 								<!-- <div id="comingsoon-countdown"></div> -->
 								<div class="site_link" onclick="playVideo()">
-									<a href="javascript:void(0);">Play Video</a>
+									<a href="javascript:void(0)" class="ss_video_popup" id="popup__toggle">Play Video</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+
+
+				  <!--  -->
+				  <div class="popup__overlay">
+					<div class="popup" id="popupVid">
+					  <a href="#" class="popup__close">X</a>
+					  <!-- <iframe width="640" height="480" src="https://www.youtube.com/embed/TRGoy0XLrUA?showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe> -->
+					  <iframe src="https://www.youtube.com/embed/SMKPKGW083c" frameborder="0" allowfullscreen></iframe>
+					</div>
+				  </div>
 			</section>
 
 			<section class="ds s-overlay portfolio-section  s-py-xl-160 s-py-lg-130 s-py-md-90 s-py-60 text-center">
@@ -1469,6 +1481,7 @@ Periodically Md. Arifur Rahman transformed Fortune International into Fortune's 
 	<script src="js/compressed.js"></script>
 	<script src="js/slick.min.js"></script>
 	<script src="js/revise.js"></script>
+	<script src="js/videojs/jquery.magnific-popup.min.js"></script>
 	<script src="js/main.js"></script>
 
 	<script src="js/switcher.js"></script>
