@@ -62,6 +62,7 @@
 
 .active_mlb:after {
   content: '\2796';
+  color: #dd4454 !important;
 }
 
 /* .all_links ul li {
@@ -94,6 +95,8 @@
 .member_body {
   position: relative;
   transition: all 0.6s linear !important;
+  overflow: hidden;
+  transition-delay: 2s;
 }
 
 .team_mem_overlay {
@@ -117,6 +120,6 @@
   opacity: 1;
   visibility: visible;
   transform: scale(1);
-  height: auto;
+  height: 100%;
   /* padding: 15px; */
 }
