@@ -16,7 +16,8 @@
 
 .about_mega_drop {
   display: none;
-  width: 255px;
+  /* Please comment this line */
+  /* width: 255px; */
   position: absolute;
   background-color: #fff;
   padding: 2px;

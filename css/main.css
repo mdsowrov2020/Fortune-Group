@@ -26254,7 +26254,7 @@ a img.aligncenter {
   .sf-menu li > ul {
     /* allow long menu items to determine submenu width */
     *width: 13.9em;
-    background-color: #fff;
+    /* background-color: #fff; */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     list-style: none;
     margin-top: 5px;
@@ -26653,103 +26653,6 @@ a img.aligncenter {
   }
 }
 
-/* Mega Menu */
-
-@media screen and (min-width: 1200px) {
-  .top-nav ul .mega-menu ul {
-    border: none;
-    min-width: auto;
-  }
-
-  .top-nav ul .mega-menu ul ul {
-    padding: 0 20px !important;
-  }
-
-  .top-nav .menu-item-has-mega-menu {
-    position: relative;
-  }
-
-  .top-nav .mega-menu {
-    display: none;
-    left: -25%;
-    padding: 40px !important;
-    position: absolute;
-    top: 60%;
-    width: 940px;
-    z-index: 10;
-  }
-
-  .top-nav .menu-item-has-mega-menu:hover .mega-menu {
-    display: block;
-  }
-  /* row */
-  .top-nav .mega-menu-row {
-    display: table;
-    position: static;
-    table-layout: fixed;
-  }
-
-  .top-nav .mega-menu-row ul {
-    display: block;
-    position: static;
-  }
-  /* column */
-  .top-nav .mega-menu-col {
-    border-bottom: none !important;
-    display: table-cell;
-    padding: 0 !important;
-    width: 2000px;
-  }
-
-  .top-nav .mega-menu-col ul li {
-    padding: 0;
-  }
-
-  .top-nav .mega-menu-col > a {
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    padding: 0 20px !important;
-    text-transform: uppercase;
-  }
-
-  .top-nav .mega-menu-col:first-child {
-    border-left: none;
-  }
-
-  .top-nav ul ul .mega-menu {
-    display: block;
-    margin-left: 1px;
-    top: -20px;
-    width: auto;
-  }
-
-  .top-nav ul ul .mega-menu li {
-    border: none;
-    display: block;
-    width: auto;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .top-nav .mega-menu {
-    width: 1170px;
-  }
-
-  .top-nav ul .mega-menu ul {
-    min-width: 10em;
-  }
-
-  .top-nav .mega-menu-col {
-    padding: 0 11px;
-  }
-}
-
-@media screen and (max-width: 991px) {
-  .top-nav .mega-menu {
-    position: static;
-  }
-}
 
 /* side clickable menu styles */
 .menu-click {

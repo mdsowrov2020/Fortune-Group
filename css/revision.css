@@ -1,0 +1,122 @@
+.mega_menu_nav {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.custom_mega_menu {
+  box-shadow: none !important;
+  width: 100% !important;
+  background-color: rebeccapurple;
+}
+
+/* ================= */
+/* collupse */
+
+.all_links {
+  margin: 5px;
+}
+
+.collapsible {
+  background-color: #fff;
+  color: #484848;
+  cursor: pointer;
+  padding: 8px 18px;
+  text-transform: capitalize;
+  width: 100%;
+  border: none !important;
+  text-align: left;
+  outline: none !important;
+  border-radius: 30px;
+  font-size: 15px;
+  -webkit-box-shadow: 0px 10px 30px #2b56f524 !important;
+  -moz-box-shadow: 0px 10px 30px #2b56f524 !important;
+  box-shadow: 0px 10px 30px #2b56f524 !important;
+}
+
+.active_mlb,
+.collapsible:hover {
+  /* background-color: #ccc; */
+  background-image: linear-gradient(to top, #dd4454 0%, #dd9044 100%);
+  color: #fff;
+}
+
+.mlbs_content {
+  padding: 0 2px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: max-height 0.2s ease-out;
+  margin-top: 15px;
+}
+
+.collapsible:after {
+  content: '\02795';
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active_mlb:after {
+  content: '\2796';
+}
+
+/* .all_links ul li {
+  display: inline-block;
+  margin: 2px;
+} */
+
+.mlbs_content ul {
+  padding: 2px 0 !important;
+  margin: 0 !important;
+}
+.mlbs_content ul li {
+  display: block !important;
+  border: none !important;
+  margin: 0px !important;
+  padding: 2px 1px !important;
+  border-bottom: 1px solid rgb(225, 222, 222) !important;
+}
+.mlbs_content ul li:last-child {
+  border-bottom: none !important;
+}
+.mlbs_content ul li a {
+  border-radius: 0px !important;
+  border: none !important;
+  margin: 0 !important;
+  display: block !important;
+  color: #484848 !important;
+}
+
+.member_body {
+  position: relative;
+  transition: all 0.6s linear !important;
+}
+
+.team_mem_overlay {
+  position: relative;
+  left: 0;
+  height: 0px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s linear;
+  background-color: #fff;
+  transform: scale(0);
+  transform-origin: top;
+
+  text-align: justify;
+}
+.team_mem_overlay p {
+  font-size: 13px;
+  color: #484848;
+}
+.member_body:hover .team_mem_overlay {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+  height: auto;
+  /* padding: 15px; */
+}
