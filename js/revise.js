@@ -13,17 +13,7 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
-// ================================
-
-// $('.ss_video_popup, .popup-vimeo, .popup-gmaps').magnificPopup({
-//   disableOn: 700,
-//   type: 'iframe',
-//   mainClass: 'mfp-fade',
-//   removalDelay: 160,
-//   preloader: false,
-
-//   fixedContentPos: false,
-// });
+// ======================
 
 var p = $('.popup__overlay');
 

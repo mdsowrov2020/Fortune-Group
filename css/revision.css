@@ -203,3 +203,52 @@ input[type='button'] {
 input[type='button']:hover {
   background-color: yellowgreen;
 }
+
+/* ================================================= */
+.project_sub_categoy_main {
+  padding: 0px !important;
+  margin: 0px !important;
+  display: inherit;
+  margin: 0px 8px !important;
+}
+.project_sub_categoy_main a {
+  position: relative;
+  z-index: 1;
+}
+.project_sub_categoy_main:hover .project_sub {
+  height: auto;
+  visibility: visible;
+  opacity: 1;
+}
+.project_sub {
+  position: absolute;
+  z-index: 1200;
+  background-color: #fff;
+  top: 40px;
+  border-radius: 4px;
+  height: 0px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+.project_sub ul li {
+  list-style-type: none;
+  margin: 0px !important;
+  border: none !important;
+  padding: 8px 2px;
+  border-bottom: 1px solid #ddd9d9 !important;
+  display: block !important;
+}
+
+.project_sub ul li:last-child {
+  border-bottom: none !important;
+}
+
+.project_sub ul li a {
+  font-size: 13px !important;
+  border-radius: 2px !important;
+  border: none !important;
+  display: block !important;
+  color: #484848 !important;
+  margin: 0px !important;
+}
