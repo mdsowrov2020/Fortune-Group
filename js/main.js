@@ -2526,3 +2526,27 @@ $('.company_mobile_slider').slick({
     // instead of a settings object
   ],
 });
+
+
+
+
+
+
+
+
+// ==========
+$('.banner_container').slick({
+  dots: true,
+  infinite: true,
+  speed: 2000,
+  prevArrow:
+    '<span class="prev_arrow"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>',
+  nextArrow:
+    '<span class="next_arrow"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>',
+  fade: true,
+  arrows: false,
+  autoplay: true,
+  cssEase: 'linear',
+  slidesToShow: 1,
+  slidesToScroll: 1,
+});
