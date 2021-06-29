@@ -2313,6 +2313,7 @@ $('.group_slider').slick({
 $('.partner_slider_container').slick({
   dots: false,
   infinite: true,
+  arrows:false,
   speed: 2000,
   autoplay: true,
   autoplaySpeed: 3000,
@@ -2354,6 +2355,7 @@ $('.partner_slider_container').slick({
 $('.mid_slid_one').slick({
   dots: false,
   infinite: true,
+  arrows:false,
   speed: 500,
   autoplay: true,
   autoplaySpeed: 800,
@@ -2396,6 +2398,7 @@ $('.mid_slid_two').slick({
   dots: false,
   infinite: true,
   speed: 500,
+  arrows:false,
   autoplay: true,
   autoplaySpeed: 800,
   slidesToShow: 1,
